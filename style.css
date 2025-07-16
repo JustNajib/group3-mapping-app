@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  margin-top: 1rem;
+}
+
+.controls {
+  margin: 1rem;
+}
+
+.controls input, .controls button {
+  padding: 8px;
+  margin: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#status {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #007bff;
+}

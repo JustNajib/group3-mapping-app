@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Location Mapper</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>Location Mapper</h1>
+
+  <div class="controls">
+    <input type="text" id="locationInput" placeholder="Enter location or address">
+    <button id="searchBtn">Search</button>
+    <button id="saveBtn">Save Point</button>
+  </div>
+
+  <div id="map"></div>
+  <p id="status"></p>
+</body>
+</html>
